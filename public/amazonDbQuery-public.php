@@ -6,8 +6,8 @@ class amazonDbQuery {
 
 	const VERSION = '0.0.1';
 
-	var $AmazonKeyPub = 'AKIAIS5QXGYYRQEZEUBA';
-	var $AmazonKeySec = 'RnQGebjXAhrMkKmFXes6tDhbhhWXrOYNxV1V/BbY';
+	var $AmazonKeyPub = 'ENTER PUBLIC KEY';
+	var $AmazonKeySec = 'ENTER SECRET';
 
 
 	protected $plugin_slug = 'amazonDbQuery';
@@ -189,13 +189,13 @@ class amazonDbQuery {
 
 		$output .= '<table class="order-table"><thead><tr>';
 
-		$output .= '<th>ED ID</th>';
-		$output .= '<th>EDMaker</th>';
-		$output .= '<th>EDModelNum</th>';
-		$output .= '<th>EDName</th>';
-		$output .= '<th>EDStandby</th>';
-		$output .= '<th>EDType</th>';
-		$output .= '<th>EDWatts</th>';
+		$output .= '<th>test1</th>';
+		$output .= '<th>test2</th>';
+		$output .= '<th>test3</th>';
+		$output .= '<th>test4</th>';
+		$output .= '<th>test5</th>';
+		$output .= '<th>test6</th>';
+		$output .= '<th>test7</th>';
 
 		$output .= '</thead><tbody>';
 
@@ -207,31 +207,31 @@ class amazonDbQuery {
 
 			foreach ( $item as $key => $valueArr ) {
 
-				if($key == 'ED ID') {
+				if($key == 'test1') {
 					foreach ( $valueArr as $value ) {
 						$sortArr[0] = '<td>' . $value . '</td>';
 					}
-				} elseif ($key == 'EDMaker') {
+				} elseif ($key == 'test2') {
 					foreach ( $valueArr as $value ) {
 						$sortArr[1] = '<td>' . $value . '</td>';
 					}
-				} elseif ($key == 'EDModelNum') {
+				} elseif ($key == 'test3') {
 					foreach ( $valueArr as $value ) {
 						$sortArr[2] = '<td>' . $value . '</td>';
 					}
-				} elseif ($key == 'EDName') {
+				} elseif ($key == 'test4') {
 					foreach ( $valueArr as $value ) {
 						$sortArr[3] = '<td>' . $value . '</td>';
 					}
-				} elseif ($key == 'EDStandby') {
+				} elseif ($key == 'test5') {
 					foreach ( $valueArr as $value ) {
 						$sortArr[4] = '<td>' . $value . '</td>';
 					}
-				} elseif ($key == 'EDType') {
+				} elseif ($key == 'test6') {
 					foreach ( $valueArr as $value ) {
 						$sortArr[5] = '<td>' . $value . '</td>';
 					}
-				} elseif ($key == 'EDWatts') {
+				} elseif ($key == 'test7') {
 					foreach ( $valueArr as $value ) {
 						$sortArr[6] = '<td>' . $value . '</td>';
 					}
