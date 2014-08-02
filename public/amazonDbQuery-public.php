@@ -181,7 +181,7 @@ class amazonDbQuery {
 		);
 
 		$r = $db->call( 'Scan', $args = array(
-				'TableName' => 'ElectricalDevices',
+				'TableName' => '{Insert Table Name}',
 			)
 		);
 
