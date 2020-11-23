@@ -1,6 +1,8 @@
 dynamodb-wordpress
 ==================
 
+This project is not maintained
+
 Plugin for Wordpress which interacts with DynamoDB
 
 This Plugin is a first attempt at surfacing results from DynamoDB within Wordpress leveraging the SimpleAmazon SDK. This has a lot of hard coded components to it, but is functional.
